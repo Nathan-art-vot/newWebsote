@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    border: 0;
+  }
+  #title {
+      margin-top: 8px;
+      text-align: center;
+      font-size: 64px;
+  }
+  #description {
+      margin-top: 44px;
+      text-align: center;
+      font-size: 22px;
+      }
+  html, body {
+      color: #020202;
+      font-size: 19px;
+      font-weight: bold;
+      text-shadow: 0.5px 0.5px rgb(200, 245, 1);
+      background: linear-gradient(rgba(0, 0, 0, 0.1), #03f5fd) ,  url('images/survey_bg.jpg');
+      background-repeat: no-repeat;
+      background-size: cover;
+  }
+  
+  
+  
+  #survey-form {
+   margin-left: 400px; 
+      margin-top: 40px;
+      margin-bottom: 40px;
+  }
+  
+  #survey-form div {
+          margin-top: 60px;
+      }
+  
+   .list-items {
+      list-style: none;
+  } 
+  
+  .input-elm {
+    box-shadow:  0 10px 20px 3px #7fbf7f;
+    border-radius: 5px;
+      margin-top: 16px;
+    padding-left: 10px;
+    width: 50%;
+    height: 32px;	
+  }
+  .input-radio, .input-checkbox {
+      margin-top: 10px;
+        margin-bottom: 10px;
+        vertical-align: middle;
+        width: 32px;
+        height: 20px;
+      margin-left: -50px;
+  }
+  
+  .select-elm {
+      box-shadow:  0 10px 20px 3px #7fbf7f;
+    border-radius: 5px;
+      margin-top: 16px;
+    padding-left: 10px;
+    width: 50%;
+    height: 32px;	
+  }
+  
+  .textarea-elm {
+    border: 2px dotted #ffffff;
+    border-radius: 5px;
+    margin-top: 16px;
+    padding-top: 10px;
+    height: 156px;
+    width: 50%;
+  }
+  
+  .button-elm {
+      margin-top: 25px;
+      width: 50%;
+      height: 50px;
+      border-radius: 5px;
+    background-color: white;
+  }
+  
+  /*
+  
+      
+  
+  
+  */
+
+
+

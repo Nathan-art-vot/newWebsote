@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Forum Survery</title>
+</head>
+<body>
+    <h1 id="title">Survey Form</h1>
+
+    <p id="description">Please fill out this form with all the necessary fields marked with <sup>*</sup> <br> to let us know the courses you are intrested in. <sub>. "| You may choose multiple courses.</sub></p>
+    </p>
+
+
+
+<form id="survey-form">
+    <div>
+      <label for="name" id="name-label">Name:</label><br>
+      <input class="input-elm" type="text" name="name" id="name" required placeholder="Your Full Name">
+    </div>
+     
+
+    <div>
+        <label for="email" id="email-label">Email:</label><br>
+        <input class="input-elm" type="email" name="email" id="email" required placeholder="Your Email ID">
+    </div>
+
+
+    <div>
+        <label for="number" id="number-label">Your age:</label><br>
+        <input class="input-elm" type="number" name="age" id="number" id="number" max="40" min="18" placeholder="Your age">
+    </div>
+ 
+    <div>
+     <label for="dropdown">Which one of these est descries your occupation?</label><br>
+     <select class="select-elm" name="occupation" id="dropdown">
+     <option value="full_time_job">Full-time Job</option>  
+     <option value="part_time_job">Part-time Job</option>  
+     <option value="freelancer">Freelancer</option>  
+     <option value="teacher">Teacher</option>  
+     <option value="student">student</option>  
+     <option value="no_say">I'd Prefer not to say.</option>  
+     </select>   
+    </div>
+
+    <div>
+    <div>How likely are you to enroll with us?</div>
+     <ul>
+    <li class="list-items"><input class="input-elm input-radio" type="radio" name="Likely" value="1" id="radio-1"> <label for="checkbox">Extremely likely</label></li>
+    <li class="list-items"><input class="input-elm input-radio" type="radio" name="Likely" value="2" id="radio-2"> <label for="checkbox">Very likely</label></li>
+    <li class="list-items"><input class="input-elm input-radio" type="radio" name="Likely" value="3" id="radio-3"> <label for="checkbox"> Likely</label></li>
+    <li class="list-items"><input class="input-elm input-radio" type="radio" name="Likely" value="4" id="radio-4"> <label for="checkbox">Not Likely</label></li>
+     </ul>
+    </div>
+    
+
+
+
+    <div>
+    <div>What courses would you like to enroll in?</div>
+    <ul>
+    <li class="list-items"><input class="input-elm input-checkbox" type="checkbox" value="html5" id="checkbox-1">
+    <label for="checkbox-1">Android App Development</label></li>
+    <li class="list-items"><input class="input-elm input-checkbox" type="checkbox" value="css3" id="checkbox-2">
+        <label for="checkbox-2">Web Designing & Development</label></li>
+    <li class="list-items"><input class="input-elm input-checkbox" type="checkbox" value="js" id="checkbox-3">
+        <label for="checkbox-1">JavaScript</label></li> 
+    <li class="list-items"><input class="input-elm input-checkbox" type="checkbox" value="js" id="checkbox-3">
+    <label for="checkbox-1">Advanced Python</label></li>
+    <li class="list-items"><input class="input-elm input-checkbox" type="checkbox" value="js" id="checkbox-3">
+        <label for="checkbox-1">Machine Learning</label></li>
+    <li class="list-items"><input class="input-elm input-checkbox" type="checkbox" value="js" id="checkbox-3">
+        <label for="checkbox-1">Artificial Intelligence</label></li> 
+    <li class="list-items"><input class="input-elm input-checkbox" type="checkbox" value="js" id="checkbox-3">
+        <label for="checkbox-1">Data Visualization</label></li>     
+    </ul>
+
+</div>
+
+<div>
+<label for="more-specification">Any other specification you would like to mention :</label><br>
+<textarea class="textarea-elm" id="more-specification"></textarea>
+</div>
+
+
+<button class="button-elm" type="submit">Submit Forum</button>
+
+
+
+
+
+
+ 
+     </form>
+   </body>
+ </html>

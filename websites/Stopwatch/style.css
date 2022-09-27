@@ -1,0 +1,81 @@
+body {
+background-color: rgb(185, 214, 214);
+font-family: 'Times New Roman', Times, serif;
+text-align: center;
+}
+ .wrapper {
+color: white;
+text-align: center;
+position: absolute;
+top: 25%;
+left: 25%;
+
+
+ }
+h1{
+font-family: 'Courier New', Courier, monospace;
+font-weight: 100;
+font-size: 54px;
+text-transform: uppercase;
+text-align: center;
+margin-left: 70px;
+}
+#time{
+letter-spacing: 7px;
+font-size: 100;
+font-weight: bold;
+margin: 0;
+margin-top: 24px;
+margin-bottom: 24px;
+margin-left: 110px;
+margin-right: 40px;
+}
+button{
+cursor: pointer;
+font-size: 16px;
+padding: 18px 10px;
+margin: 1px;
+width: 180px;
+background-color: rgb(255, 255, 255);
+color: rgb(12, 9, 9);
+border: solid;
+box-shadow: 5px 5px 5px rgba(rgb(0, 0, 0), green, blue, alpha);
+border-radius: 5px;
+margin-left: 100px;
+
+}
+
+button:hover{
+background: rgb(rgb(185, 178, 178), green, blue) ;
+border: solid 1px rgb(0, 0, 0);
+color: gray;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

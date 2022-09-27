@@ -1,0 +1,40 @@
+body {
+  font-size: 20px;
+}
+
+section {
+  width: 100%;
+}
+
+.text-center {
+  text-align: center;
+}
+.section-heading {
+  color: #ddff53;
+  font-size: 25px;
+}
+
+#about-section{
+    height: auto;
+    width: 100%;
+}
+
+#myPhoto img{
+    height: 320px;
+    width:320px;
+}
+
+#about-profile{
+    color: rgb(239, 11, 11);
+    width: 100%;
+}
+
+#education{
+    width: 100%;
+}
+
+#education img{
+    width: 1000px;
+    height: 500px;
+}
+

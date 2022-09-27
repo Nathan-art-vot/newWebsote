@@ -1,0 +1,142 @@
+*{
+    font:bold 14px Aria,sans-serif;
+      margin: 0;
+      padding: 0;
+  }
+  .header{
+    width: 60%;
+    margin-left: 300px;
+    background-color: lightskyblue;
+    border-radius: 25px;
+    box-shadow: 10px 10px 10px #96c5db;
+  }
+  .header h1{
+    font-size: 75px;
+    color: white;
+    text-align: center;
+    margin-top: 40px;
+  }
+  html {
+     background: radial-gradient(circle, #fff 20%, rgb(179, 236, 229));  
+  }
+  #calculator {
+    padding: 20px 20px 20px 20px;
+    width: 325px;
+    border-radius: 3px;
+    background: #9dd2ea;
+    box-shadow: 0px 4px #009de4;
+    margin: 100px auto 100px auto;
+    text-align: center;
+  }
+  #screen {
+    margin-right: 35px;
+    text-align: right;
+    font-size: 17px;
+    letter-spacing: 1px;
+    line-height: 40px;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+    color: white;
+    float: right;
+    border-radius: 3px;
+    box-shadow: inset 10px 10px 10px rgba(3, 0, 0, 0.2);
+    background: rgba(0, 0, 0, 0.2);
+    height: 40px;
+    width: 212px;  
+  }
+  .keys, .top {
+      overflow: hidden;
+  }
+  
+  .keys span, #clear {
+    user-select: none;
+    cursor: pointer;
+    border-radius: 3px;
+    box-shadow: 0px 4px rgba(0, 0, 0, 0.2);
+    line-height: 36px;
+    text-align: center;
+    margin: 0 7px 11px 0;
+    color: #888;
+    background: white;
+    position: relative;
+    top: 0;
+    float: left;
+    width: 66px;
+    height: 36px;
+  }
+  .keys span.operator {
+      background: #FFF0F5;
+  }
+  .keys span.eval {
+      background: #f1ff92;
+      box-shadow: 0px 4px #9da853;
+      color: #888e5f;
+  }
+  .keys span.eval:active {
+      box-shadow: 0px 0px #717a33;
+      top: 4px;
+  }
+
+.keys span, #clear {
+transition: all 0.2s ease;
+}
+  
+.keys span.eval {
+background: yellow;
+box-shadow: 0px 4px greenyellow;
+color:#888e5f
+} 
+
+.keys span.eval:hover {
+background: #9da853;
+box-shadow: 0px 4px rgb(rgb(79, 90, 78), green, blue);
+color: #FFF0F5;
+}
+
+.keys span.eval:active {
+box-shadow: 0px 0px rgb(rgb(151, 94, 94), rgb(46, 61, 46), blue);
+top: 4px;
+}
+
+#clear {
+background: red;
+box-shadow: 0px 4px lightcoral;
+color: white;
+}
+#clear:hover {
+background: lightcoral;
+box-shadow: 0px 4px red;
+color: white;
+}
+#clear:active {
+top: 4px;
+box-shadow: 0px 0px red;
+}
+.keys span:hover{
+background: rgb(233, 132, 233);
+box-shadow: 0px 4px purple;
+color: white;
+}
+
+.keys span:active {
+box-shadow: 0px 0px purple;
+top: 4px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

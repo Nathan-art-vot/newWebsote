@@ -1,0 +1,43 @@
+body{
+    font-size:20px;
+  }
+  
+  section{
+    width:100%;
+  }
+  
+  .text-center{
+    text-align: center;
+  }
+  
+  .section-heading{
+      color:blue;
+      font-size: 35px;
+  }
+  
+  #about-section{
+    height: auto;
+    width: 100%;
+  }
+  
+  #myPhoto img{
+    height: 220px;
+    width: 220px;
+  }
+  
+  #about-profile{
+       color:grey;
+       width:80%;
+  }
+  
+  
+  #education{
+      width:100%;
+  }
+  
+  #education img{
+      width:1000px;
+      height: 500px;
+  }
+  
+  

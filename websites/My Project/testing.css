@@ -1,0 +1,12 @@
+body{
+    font-size: 20px;
+    color: black;
+    background-color: yellow;
+}
+section {
+    width: 100%;
+  }
+
+.text-center{
+    text-align: center;
+color: rgb(206, 74, 74);}
