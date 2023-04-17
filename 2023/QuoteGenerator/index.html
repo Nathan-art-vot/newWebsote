@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Quote Generator</title>
+</head>
+<body>
+
+    <div class="container">
+        <div class="row flex-top flex-center">
+            <h1>Random Quote Generator</h1>
+        </div>
+        <div>
+            <button id="button" class="btn-generate" onclick="generate()">Get quote</button>
+            <button id="button" class="btn-seeAll" onclick="seeAllQuotes()">See all quotes</button>
+        </div>
+        <div>
+            <header class="border shadow">
+                <p class="quote card-body center" id="quoteSection">.....</p>
+            </header>
+        </div>
+
+        <div class="row flex-center">
+            <label id="input-label">Insert quote here: </label>
+            <main class="card">
+                <input type="text" id="insertSection">
+            </main>
+            <button id="button" class="btn-newQuote" onclick="newQuotes()">Add new quote</button>
+        </div>
+
+        <div class="row flex-bottom flex-center">
+            <footer>
+                <p>A Project by <a href=""></a>@me</p>
+            </footer>
+        </div>
+        </div>
+    
+    <script src="script.js"></script>
+</body>
+
+</html>

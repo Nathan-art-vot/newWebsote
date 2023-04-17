@@ -1,0 +1,54 @@
+header {
+    padding: 1px;
+    background-color: #eb7f41;
+    margin: 10px;
+    text-align: center;
+}
+
+.quote {
+    font-size: 3em;
+}
+
+.btn-large{
+    margin: 0.5em;
+}
+
+#button:active{
+    box-shadow: 0 0 0 0;
+}
+
+.card{
+    text-align: center;
+    width: 45em;
+}
+
+.btn-generate{
+    background-color: #e28b13;
+}
+
+.btn-seeAll{
+    background-color: #58cd0a;
+}
+
+.btn-newQuotes{
+    background-color: #146e92;
+}
+
+    @media (max-width: 700px) {
+        header {
+            padding: 10px;
+            background-color: #ffff80;
+            margin-top: 10px;
+         text-align: center;
+     }
+
+
+    h1 {
+        font-size: 20px;
+    }
+
+    #newQuoteSection{
+        font-size: 24px;
+    }
+
+}
